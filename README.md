@@ -6,10 +6,10 @@ jQuery plugin for viewing images collection
 2. To add plugin functionality to a DOM structure simply use:
 ```javascript
 $( 'container' )
-  .imageViewer(
+  .imageViewer({
     img_paths: [ /* paths in string format */ ], // i.e. [ 'imgs/image01.jpg', 'imgs/image02.jpg' ]         
     main_img_height: 500                         // main image placeholder height in pixels 
-  );
+  });
 ```
 
 ## Plugin options
